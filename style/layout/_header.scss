@@ -1,0 +1,37 @@
+header{
+    h1{
+        color: rgb(249, 249, 249);
+        font-size: 5rem;
+        font-style: italic;
+        margin: 40px 0 auto;
+        letter-spacing: 3px;
+        text-shadow: 4px 4px 8px #e20ce265;
+        
+    }
+    h3{
+        color: white;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 4rem;
+        margin: 0;
+        text-shadow: 4px 4px 8px #e20ce265;
+    }
+    
+    .header-bas{
+            margin: 250px;
+            h2{
+                color: white;
+                font-size: 2rem;
+            }
+            button{
+                color: white;
+                font-size: 1.5rem;
+                border-radius: 10px;
+                margin: 15px;
+                letter-spacing: 1px;
+                padding: 10px;
+                background: #e20ce265;
+                border: 1px solid white;
+            }
+        }
+    } 

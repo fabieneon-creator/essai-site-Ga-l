@@ -1,0 +1,22 @@
+.pain{
+    display: block;
+    h3{
+    display: block;
+    color: rgb(249, 249, 249);
+    font-size: 3rem;
+   margin: 010px;
+    letter-spacing: 3px;
+    text-shadow: 2px 4px 8px #e20ce265;
+    text-align: center;
+    }
+    .pain-img{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+        margin: 0;
+        img{
+            width: 100%;
+            
+        }
+    }
+}

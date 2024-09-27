@@ -1,0 +1,27 @@
+nav{
+   background:#f7f6f763 ;
+   border-radius: 5px;
+   height: 50px;
+   text-align: center;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 2rem;
+        font-style: italic;
+       li{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 4px 4px 8px #e20ce265;
+        a{
+            text-decoration: none;
+        list-style: none;
+        text-shadow: 4px 4px 8px white;
+        }
+
+       }
+    }
+    
+}

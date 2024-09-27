@@ -1,0 +1,295 @@
+body {
+  background: url(./image/choc.jpg) center/cover fixed;
+  min-height: 100vh;
+  text-align: center;
+}
+
+header h1 {
+  color: rgb(249, 249, 249);
+  font-size: 5rem;
+  font-style: italic;
+  margin: 40px 0 auto;
+  letter-spacing: 3px;
+  text-shadow: 4px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+header h3 {
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 4px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+header .header-bas {
+  margin: 250px;
+}
+header .header-bas h2 {
+  color: white;
+  font-size: 2rem;
+}
+header .header-bas button {
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin: 15px;
+  letter-spacing: 1px;
+  padding: 10px;
+  background: rgba(226, 12, 226, 0.3960784314);
+  border: 1px solid white;
+}
+
+nav {
+  background: rgba(247, 246, 247, 0.3882352941);
+  border-radius: 5px;
+  height: 50px;
+  text-align: center;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 2rem;
+  font-style: italic;
+}
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: 4px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  text-shadow: 4px 4px 8px white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  width: 100%;
+  margin: 100px auto;
+}
+section .presentation-left {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+section .presentation-left img {
+  border-radius: 45px;
+  margin: auto;
+}
+section .presentation-center {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 780px;
+  background: rgba(26, 25, 26, 0.5058823529);
+  margin: 40px auto;
+  border: 2px solid rgba(226, 12, 226, 0.3960784314);
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 20px 4px white;
+          box-shadow: 0px 0px 20px 4px white;
+}
+section .presentation-center h2 {
+  color: rgb(249, 249, 249);
+  font-size: 1.8rem;
+  margin: 40px 0 auto;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+section .presentation-center p {
+  color: rgb(249, 249, 249);
+  font-size: 1rem;
+  margin: 25px auto;
+  width: 80%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+section .presentation-right {
+  margin: 230px auto;
+}
+section .presentation-right img {
+  border-radius: 45px;
+  margin: auto;
+}
+
+.titre {
+  color: rgb(249, 249, 249);
+  font-size: 2.5rem;
+  margin: 40px 0 auto;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+
+.propo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 10px 40px;
+}
+.propo .propo-left {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background: rgba(26, 25, 26, 0.5058823529);
+  margin: 40px 40px auto;
+  border: 2px solid rgba(226, 12, 226, 0.3960784314);
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 20px 4px white;
+          box-shadow: 0px 0px 20px 4px white;
+}
+.propo .propo-left h3 {
+  color: rgb(249, 249, 249);
+  font-size: 1.8rem;
+  margin: 40px 0 auto;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+.propo .propo-left p {
+  color: rgb(249, 249, 249);
+  font-size: 1rem;
+  margin: 25px auto;
+  width: 80%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.propo img {
+  border-radius: 45px;
+  margin: auto;
+}
+
+.propo-1 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 10px 40px;
+}
+.propo-1 img {
+  border-radius: 45px;
+  margin: auto;
+}
+.propo-1 .propo-1-right {
+  display: block;
+  text-align: center;
+  width: 90%;
+  height: 300px;
+  background: rgba(26, 25, 26, 0.5058823529);
+  margin: 40px 40px auto;
+  border: 2px solid rgba(226, 12, 226, 0.3960784314);
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 20px 4px white;
+          box-shadow: 0px 0px 20px 4px white;
+}
+.propo-1 .propo-1-right h3 {
+  color: rgb(249, 249, 249);
+  font-size: 1.8rem;
+  margin: 40px 0 auto;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+.propo-1 .propo-1-right p {
+  color: rgb(249, 249, 249);
+  font-size: 1rem;
+  margin: 25px auto;
+  width: 80%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.propo-2 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 10px 40px;
+}
+.propo-2 .propo-2-left {
+  display: block;
+  text-align: center;
+  width: 90%;
+  height: 350px;
+  background: rgba(26, 25, 26, 0.5058823529);
+  margin: 40px 40px auto;
+  border: 2px solid rgba(226, 12, 226, 0.3960784314);
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 20px 4px white;
+          box-shadow: 0px 0px 20px 4px white;
+}
+.propo-2 .propo-2-left h3 {
+  color: rgb(249, 249, 249);
+  font-size: 1.8rem;
+  margin: 40px 0 auto;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+.propo-2 .propo-2-left h2 {
+  font-size: 2rem;
+  margin: 20px 0 auto;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+.propo-2 .propo-2-left p {
+  color: rgb(249, 249, 249);
+  font-size: 1rem;
+  margin: 25px auto;
+  width: 80%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.propo-2 img {
+  border-radius: 45px;
+  margin: 40px;
+}
+
+.carte {
+  display: block;
+}
+.carte h3 {
+  color: rgb(249, 249, 249);
+  font-size: 2.5rem;
+  margin: 40px 0 auto;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(226, 12, 226, 0.3960784314);
+}
+.carte button {
+  cursor: pointer;
+  border: 1px solid white;
+  margin: 80px;
+  font-style: italic;
+  font-size: 3rem;
+  border-radius: 10px;
+  padding: 10px;
+  background: rgba(226, 12, 226, 0.3960784314);
+}
+.carte button a {
+  text-decoration: none;
+  color: white;
+}
+
+.pain {
+  display: block;
+}
+.pain h3 {
+  display: block;
+  color: rgb(249, 249, 249);
+  font-size: 3rem;
+  margin: 10px;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(226, 12, 226, 0.3960784314);
+  text-align: center;
+}
+.pain .pain-img {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  margin: 0;
+}
+.pain .pain-img img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */

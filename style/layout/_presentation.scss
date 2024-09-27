@@ -1,0 +1,171 @@
+section{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    width: 100%;
+    margin: 100px auto;
+    
+    
+    .presentation-left{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        
+        img{         
+            border-radius: 45px;
+            margin: auto;
+        }
+
+    }
+    .presentation-center{
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 780px;
+        background: #1a191a81;
+        margin: 40px auto;
+        border: 2px solid #e20ce265 ;
+        border-radius: 20px;
+        box-shadow:  0px 0px 20px 4px white;
+        h2{
+            color: rgb(249, 249, 249);
+            font-size: 1.8rem;
+            margin: 40px 0 auto;
+            letter-spacing: 3px;
+            text-shadow: 2px 4px 8px #e20ce265;
+        }
+        p{
+            color:rgb(249, 249, 249) ;
+            font-size: 1rem;
+            margin: 25px auto;
+            width: 80%;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    }
+
+    .presentation-right{
+        margin: 230px auto;
+        img{
+            border-radius: 45px;
+            margin: auto;
+        }  
+     }
+}
+.titre{
+    color: rgb(249, 249, 249);
+    font-size: 2.5rem;
+    margin: 40px 0 auto;
+    letter-spacing: 3px;
+    text-shadow: 2px 4px 8px #e20ce265;
+
+}
+.propo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 40px;
+    .propo-left{
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        background: #1a191a81;
+        margin: 40px 40px auto;
+        border: 2px solid #e20ce265 ;
+        border-radius: 20px;
+        box-shadow:  0px 0px 20px 4px white;
+        h3{
+            color: rgb(249, 249, 249);
+            font-size: 1.8rem;
+            margin: 40px 0 auto;
+            letter-spacing: 3px;
+            text-shadow: 2px 4px 8px #e20ce265;
+        }
+        p{
+            color:rgb(249, 249, 249) ;
+            font-size: 1rem;
+            margin: 25px auto;
+            width: 80%;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    }
+    img{
+        border-radius: 45px;
+            margin: auto;
+    }
+}
+.propo-1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 10px 40px;
+    img{
+        border-radius: 45px;
+            margin: auto;
+    }
+    .propo-1-right{
+        display: block;
+        text-align: center;
+        width: 90%;
+        height: 300px;
+        background: #1a191a81;
+        margin: 40px 40px auto;
+        border: 2px solid #e20ce265 ;
+        border-radius: 20px;
+        box-shadow:  0px 0px 20px 4px white;
+        h3{
+            color: rgb(249, 249, 249);
+            font-size: 1.8rem;
+            margin: 40px 0 auto;
+            letter-spacing: 3px;
+            text-shadow: 2px 4px 8px #e20ce265;
+        }
+        p{
+            color:rgb(249, 249, 249) ;
+            font-size: 1rem;
+            margin: 25px auto;
+            width: 80%;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    }
+} 
+.propo-2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 10px 40px;
+    .propo-2-left{
+        display: block;
+        text-align: center;
+        width: 90%;
+        height: 350px;
+        background: #1a191a81;
+        margin: 40px 40px auto;
+        border: 2px solid #e20ce265 ;
+        border-radius: 20px;
+        box-shadow:  0px 0px 20px 4px white;
+        h3{
+            color: rgb(249, 249, 249);
+            font-size: 1.8rem;
+            margin: 40px 0 auto;
+            letter-spacing: 3px;
+            text-shadow: 2px 4px 8px #e20ce265; 
+        }
+        h2{
+            font-size: 2rem;
+            margin: 20px 0 auto;
+            letter-spacing: 3px;
+            text-shadow: 2px 4px 8px #e20ce265;
+        }
+        p{
+            color:rgb(249, 249, 249) ;
+            font-size: 1rem;
+            margin: 25px auto;
+            width: 80%;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    }
+    img{
+        border-radius: 45px;
+            margin: 40px;
+    }
+}   
